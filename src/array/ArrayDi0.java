@@ -11,13 +11,11 @@ public class ArrayDi0 {
         arr[1][1] = 5;
         arr[1][2] = 6;
 
-        System.out.print(arr[0][0] + " ");
-        System.out.print(arr[0][1] + " ");
-        System.out.print(arr[0][2] + " ");
-        System.out.println();
-
-        System.out.print(arr[1][0] + " ");
-        System.out.print(arr[1][1] + " ");
-        System.out.print(arr[1][2] + " ");
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
